@@ -1,5 +1,16 @@
 //Fonts
 @import url('https://fonts.googleapis.com/css2?family=Arima&family=Roboto:wght@300;500;900&display=swap');
 
+//Variáveis
+@import"./variaveis.scss";
+
+//Components
+@import"./header.scss";
+@import"./nav-produtos.scss";
+@import"./banners-promocionais-statico.scss";
+
 //Framework
-@import './bootstrap.scss';
+@import "./bootstrap.scss";
+
+//Config
+@import"./config.scss";
