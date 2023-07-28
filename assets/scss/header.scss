@@ -17,9 +17,6 @@ header {
       position: absolute;
       right: 25px;
     }
-
-
-
   }
 
   ul {
@@ -31,15 +28,14 @@ header {
         background: $rosa;
 
         position: absolute;
-        top: -8px;
-        left: 3px;
+        top: -10px;
+        left: 5px;
 
         font-size: 10px;
         width: 15px;
         height: 15px;
 
         border-radius: 100%;
-
       }
 
       a {
@@ -48,7 +44,7 @@ header {
         color: $cor-secundaria;
 
         svg {
-          font-size: 30px;
+          font-size: 23px;
         }
 
         &:hover {
