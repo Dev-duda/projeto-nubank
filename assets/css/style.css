@@ -118,7 +118,7 @@ footer {
   footer a {
     color: #fff; }
     footer a:hover {
-      color: #333; }
+      color: #fff; }
   footer h4 {
     color: #FF9900;
     font-size: 19px; }
@@ -128,6 +128,102 @@ footer {
     text-overflow: ellipsis;
     white-space: nowrap; }
 
+.produtos-compra figure {
+  margin: 0; }
+.produtos-compra .produtos-conteudo h1 {
+  margin: 0;
+  font-size: 32px; }
+.produtos-compra .produtos-conteudo p {
+  font-size: 16px; }
+.produtos-compra .produtos-preco .produtos-stars svg {
+  fill: #FF9900; }
+.produtos-compra .produtos-preco strong {
+  font-size: 40px; }
+.produtos-compra .produtos-preco form {
+  font-weight: 100; }
+  .produtos-compra .produtos-preco form label {
+    margin: 0; }
+.produtos-compra .produtos-preco .produtos-stars svg,
+.produtos-compra .produtos-preco strong span,
+.produtos-compra .produtos-preco form {
+  font-size: 16px; }
+
+body {
+  background-color: #eeeeee; }
+
+main {
+  margin: 30px; }
+
+a {
+  color: #fff; }
+  a:hover {
+    color: #fff; }
+
+.footer-background {
+  background-color: #ccc7c7; }
+
+@media (max-width: 991px) {
+  #heading {
+    padding-left: 50px; }
+
+  #prc {
+    margin-left: 70px;
+    padding-left: 110px; }
+
+  #quantity {
+    padding-left: 48px; }
+
+  #produc {
+    padding-left: 40px; }
+
+  #total {
+    padding-left: 54px; } }
+@media (max-width: 767px) {
+  .mobile {
+    font-size: 10px; }
+
+  h5 {
+    font-size: 14px; }
+
+  h6 {
+    font-size: 9px; }
+
+  #mobile-font {
+    font-size: 11px; }
+
+  #prc {
+    font-weight: 700;
+    margin-left: -45px;
+    padding-left: 105px; }
+
+  #quantity {
+    font-weight: 700;
+    padding-left: 6px; }
+
+  #produc {
+    font-weight: 700;
+    padding-left: 0px; }
+
+  #total {
+    font-weight: 700;
+    padding-left: 9px; }
+
+  #image {
+    width: 60px;
+    height: 60px; }
+
+  .col {
+    width: 100%; }
+
+  #zero-pad {
+    padding: 2%;
+    margin-left: 10px; }
+
+  #footer-font {
+    font-size: 12px; }
+
+  #heading {
+    padding-top: 15px; } }
 @media (max-width: 375px) {
   .banners-promocionais-statico .banners-promocionais-statico-12x p,
   .banners-promocionais-statico .banners-promocionais-statico-todo-br p {
